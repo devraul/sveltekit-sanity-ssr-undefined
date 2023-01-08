@@ -6,8 +6,8 @@ const config: UserConfig = {
 	test: {
 		include: ['src/**/*.{test,spec}.{js,ts}']
 	},
-	optimizeDeps: {
-		include: ['sanity']
+	ssr: {
+		external: ['sanity', 'sanity-desk']
 	}
 };
 

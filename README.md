@@ -23,9 +23,9 @@ You'll see that:
 Code:
 
 ```js
-	optimizeDeps: {
-		include: ['sanity', 'sanity/desk']
-	},
+optimizeDeps: {
+  include: ["sanity", "sanity/desk"];
+}
 ```
 
 Has no effect
